@@ -1,5 +1,7 @@
-from urllib.parse import urlsplit
 from typing import Annotated
+
+from urllib.parse import urlsplit
+
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel
 
